@@ -76,6 +76,19 @@ def XIC(file,MASS_2_FOLLOW):
     
     
     
+#def PlotSpectrm(file):    
+#mzMLFile = 'profile-mass-spectrum.mzml'
+#example_file = get_example_file.open_example(mzMLFile)
+#run = pymzml.run.Run("../mzML_example_files/"+mzMLFile, precisionMSn = 250e-6)
+#p = pymzml.plot.Factory()
+#for spec in run:
+#     p.newPlot()
+#     p.add(spec.peaks, color=(200,00,00), style='circles')
+#     p.add(spec.centroidedPeaks, color=(00,00,00), style='sticks')
+#     p.add(spec.reprofiledPeaks, color=(00,255,00), style='circles')
+#     p.save( filename="output/plotAspect.xhtml" , mzRange = [745.2,745.6] 
+    
+    
         
 #ms2scans = Getms2scans1(msrun)
 #test = msrun[2547]

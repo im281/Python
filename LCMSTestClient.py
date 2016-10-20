@@ -52,8 +52,10 @@ import matplotlib.pyplot as plt
 
 plt.plot(ns)
 
-
+#pymzml spectrum class is the scan object (scan is mine)
 spec = pymzml.spec.Spectrum
 
-
+#Generate XIC (fixed tolerances for now)
 x = XIC("Tryp_Myo_1.mzML",680.9178)
+
+
